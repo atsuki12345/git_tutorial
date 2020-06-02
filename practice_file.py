@@ -46,4 +46,4 @@ class Operation(object):
 
 file1 = File('abcde','text','introducing of this story',True,'practice')
 operation = Operation()
-print(operation.add_content(30,'hello',file1))
+print(operation.add_content(20,'hello',file1))
