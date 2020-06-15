@@ -1,5 +1,4 @@
 def matrixDotProduct(matrixA,matrixB):
-    #ここから書きましょう
     answer_list =[]
     matrixA_list = side_line(matrixA)
     matrixB_list = vertical_line(matrixB)
