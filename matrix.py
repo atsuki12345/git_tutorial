@@ -28,3 +28,5 @@ def vertical_line(matrix):
         else:
             vertical_line.append(vertical_base)
     return vertical_line
+
+print(matrixDotProduct([1,2,3,4],[5,6,7,8]))
