@@ -1,0 +1,15 @@
+def maxContiguousSubarray(potions):
+    #ここから書きましょう
+    cache = 0
+    for k in range(0,int(len(potions)+1)):
+        for i in range(1,int(len(potions)+1)):
+            count = 0
+            cache_list = []
+            for j in range(k,i):
+                count += potions[j]
+                cache_list.append(potions[j])
+            else:
+                if count > cache and len(cache_list) >1:
+                    cache = count
+    else:
+        return cache
